@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
+
 @RestController
 @RequestMapping("/saludar")
 public class SaludoController {
@@ -14,4 +15,10 @@ public class SaludoController {
     public String saludo(){
         return "holi :D ";
     }
+
+    @GetMapping("/bye")
+    public String despedida() {
+        return  "Adioos......";
+    }
+    
 }
