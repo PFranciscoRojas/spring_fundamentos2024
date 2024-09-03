@@ -11,6 +11,7 @@ public class Libro {
     private Long idLibro;
 
     private String titulo;
+    
     @Column(name = "anio_publicacion")
     private Integer anioPublicacion;
     private Double precio;
