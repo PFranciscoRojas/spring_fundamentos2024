@@ -7,6 +7,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.example.libreria.infraestructure.entity.Autor;
 
-public interface AutorCrudRepository extends CrudRepository<Autor, Integer> {
+public interface AutorCrudRepository extends CrudRepository<Autor, Long> {
     List<Autor> findByIdAutor(Long idAutor);
 }

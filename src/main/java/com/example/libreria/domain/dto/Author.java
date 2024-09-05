@@ -20,9 +20,10 @@ public class Author {
     public String getNacionality() {
         return nacionality;
     }
-    public void setNacionalidad(String nacionality) {
+    public void setNacionality(String nacionality) {
         this.nacionality = nacionality;
     }
+    
 
     
 }
